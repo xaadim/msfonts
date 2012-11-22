@@ -6,7 +6,7 @@ Tested only in archlinux.
 
 To install it, run:
 
-	sudo curl -L https://github.com/caarlos0/msfonts/raw/master/install.sh | sh
+	curl -L https://github.com/caarlos0/msfonts/raw/master/install.sh | sudo sh
 
 You know how to contribute, report bugs, etc.
 
