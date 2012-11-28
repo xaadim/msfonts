@@ -8,8 +8,12 @@ To install it, run:
 
 	curl -L https://github.com/caarlos0/msfonts/raw/master/install.sh | sudo sh
 
-You know how to contribute, report bugs, etc.
+or with wget:
 
-Depends on `git` only.
+    wget -qO- https://github.com/caarlos0/msfonts/raw/master/install.sh | sudo sh
+
+
+> Note: The script will automagically install git if you doesn't have it.
+
 
 [@caarlos0](http://twitter.com/caarlos0)
