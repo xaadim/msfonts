@@ -2,10 +2,6 @@
 
 set -e
 
-if ! [[ -x $(which git) ]]; then
-  pacman -Sy git
-fi
-
 cd /tmp
 git clone git://github.com/xaadim/msfonts.git
 
